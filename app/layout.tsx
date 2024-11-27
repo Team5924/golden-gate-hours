@@ -8,9 +8,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "In-N-Out Clock App",
+  title: "Golden Gate Hours",
   description:
-    "In-N-Out Clock App is an hour tracking app for Team 5924, Golden Gate Robotics.",
+    "Golden Gate Hours is an hour tracking app for Team 5924, Golden Gate Robotics.",
 };
 
 export default function RootLayout({

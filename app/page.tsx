@@ -42,11 +42,11 @@ export default async function Home() {
       <div className="mt-11 flex flex-col items-center sm:mt-5 md:mt-0">
         <Image
           src={inNOutLogo}
-          alt="In-N-Out Logo"
+          alt="Golden Gate Hours Logo"
           className="w-2/3 animate-fade-in sm:w-1/2 lg:w-1/3"
         ></Image>
         <h1 className="animate-fade-in text-4xl font-bold text-yellow-300 sm:text-5xl lg:text-6xl">
-          In-N-Out Hour Tracker
+          Golden Gate Hours
         </h1>
       </div>
     </div>
