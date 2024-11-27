@@ -1,5 +1,5 @@
 import Image from "next/image";
-import inNOutLogo from "/public/golden-gate-hours.png";
+import goldenGateHoursLogo from "/public/golden-gate-hours.png";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/pages/api/auth/[...nextauth]";
 import { prisma } from "@/app/client";
@@ -41,7 +41,7 @@ export default async function Home() {
       />
       <div className="mt-11 flex flex-col items-center sm:mt-5 md:mt-0">
         <Image
-          src={inNOutLogo}
+          src={goldenGateHoursLogo}
           alt="Golden Gate Hours Logo"
           className="w-2/3 animate-fade-in sm:w-1/2 lg:w-1/3"
         ></Image>
