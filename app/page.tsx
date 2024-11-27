@@ -1,5 +1,5 @@
 import Image from "next/image";
-import inNOutLogo from "/public/in-n-out.png";
+import inNOutLogo from "/public/golden-gate-hours.png";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/pages/api/auth/[...nextauth]";
 import { prisma } from "@/app/client";
