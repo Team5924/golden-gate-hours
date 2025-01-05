@@ -22,7 +22,7 @@ export default async function Home() {
 
   // Block if logged in and not terminal and either no school id or not approved
   // If no school id redirect to set-school-id
-  // If not approved redirect to not-approved
+  // If not approved redirect to not-approved 
   if (session && !isTerminal) {
     if (!schoolId) {
       redirect("/set-school-id");
